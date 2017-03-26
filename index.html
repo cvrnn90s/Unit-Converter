@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Conversion Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+ 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">   
+    </head>
+</html>
+
+
+
+
+
+
+
+<body>
+  
+    
+
+   
+   
+<section id="container-Left">
+   <img src="img/apple.jpg" alt="apple" />
+   <img src="img/scale.jpg" alt="scale" />
+   <img src="img/thermometer.jpg" alt="thermometer" />
+   </section>
+   
+   
+  
+
+<section id="container-Middle">
+<h1>Simple Unit Converter</h1>
+<p>Need to know how many pounds there are in a kilogram? What the temperature is in degrees on your travels? Give The Simple Unit Converter a try!</p>
+
+<p>To get started just select a convertion type from the drop down list, then enter your number and click convert, see its simple!</p>
+
+     <!--dropdown-->
+        <div id="selectBox" >
+
+
+          <select  id="conversionType">
+
+            <option value="choose">Please choose a type</option>
+
+            <option value="Pounds to Kilograms" id="pK">Pounds to Kilograms</option>
+
+            <option value="Kilograms to Pounds" id="kP">Kilograms to Pounds</option>
+
+
+            <option value="Feet to Inches" id="fI">Feet to Inches</option>
+            <option value="Inches to Feet" id="iF">Inches to Feet</option>
+            <option value="Celsius to Fahrenheit" id="cF">Celsius to Fahrenheit</option>
+            <option value="Fahrenheit to Celsius" id="fC">Fahrenheit to Celsius</option>
+
+          </select>
+          <span></span>
+          
+          </div>
+         
+          
+          <!--input box-->
+          <div id="inputBox">
+          <input type="input" id="unit" placeholder="Enter your number"/>
+          </div>
+          <!-- buttons--->
+<div id="buttons">
+          <button id="btn1">Convert</button>
+          <button id="btn2">Clear</button>
+        </div>
+
+<!--result box-->
+        <div id="result">
+          </div>
+       
+       
+<!--wrapper-->
+
+
+ <!--footer--> 
+  
+<footer class="container">
+&copy; 2016 CV Design
+</footer>
+</section>
+<section id="container-Right">
+   <img src="img/tapemeasure.jpg" alt="tape measure" />
+   <img src="img/heat.jpg" alt="heat" />
+   <img src="img/largescale.jpg" alt="kitchen scale"/>
+   </section>
+ 
+</body>
+
+<script src="script.js" type="text/javascript"></script>

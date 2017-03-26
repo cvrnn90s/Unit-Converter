@@ -1,0 +1,434 @@
+body {
+  
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#container-Left {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	float: left;
+	width: 30%;
+	height: auto;
+	background-color: aliceblue;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#container-Middle {
+	width: 34%;
+	display:inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 1%;
+	background-color: aliceblue;
+	text-align: center;
+	border-radius: 10px;
+	padding: 2%;
+}
+
+#container-Middle h1 {
+	font-size: 2.5em;
+	}
+
+#container-Right {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	float: right;
+	width: 30%;
+	height: auto;
+	background-color: aliceblue;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#selectBox {
+	max-width: 100%;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	display: inline-block;
+	color: #525252;
+	font-weight: 300;
+    -webkit-border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+    -moz-border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+	-o-border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+	-ms-border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+    border-radius: 5px 4px 4px 5px/5px 5px 4px 4px;
+    -webkit-box-shadow: 0 0 5px rgba(123, 123, 123, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(123,123,123,0.2);
+	-o-box-shadow: 0 0 5px rgba(123, 123, 123, 0.2);
+	-ms-box-shadow: 0 0 5px rgba(123, 123, 123, 0.2);
+	box-shadow: 0 0 5px rgba(123, 123, 123, 0.2);
+    border: solid 1px #DADADA;
+    position: relative;
+    cursor: pointer;
+	margin-top: 5px;
+}
+
+#selectBox span {
+    position: absolute;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+	background: url(img/arrow.png) no-repeat;
+    top: 50%;
+    margin-top: -4px;
+}
+
+#selectBox select {
+	font-size: 1.28571429rem;
+	padding-left: 113px;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 500px;
+	height: 50px;
+	background: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	
+	
+}
+
+
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 2.14285714rem;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align:center;
+	}
+	
+	
+
+ button {
+	text-align:center;
+	background-color:#fff;
+	color: #000;
+	border: 2px solid #39F;
+	border-radius: 5px;
+	width: 45%;
+	height: 25px;
+	cursor:pointer;
+	-webkit-transition-property: background-color;
+	-moz-transition-property: background-color;
+	-o-transition-property: background-color;
+	-ms-transition-property: background-color;
+	transition-property: background-color;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+	
+}
+
+#btn1 {
+	float:left;
+	
+}
+
+#btn2 {
+	float:right;
+}
+
+button:hover {
+	
+	background-color: #39F;
+	color: #fff;
+	
+	}	
+
+
+
+#result {
+  height: 100px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 20px auto 10px;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 2.14285714rem;
+  padding-top: 50px;
+  
+}
+
+
+footer {
+	
+	text-align:center;
+}
+
+
+/*Media Queries*/
+
+@media (max-width: 2560px) {
+	#container-Left, #container-Right, #container-Middle {
+		margin-top: 80px;
+}
+}
+
+@media (max-width: 1024px) {
+	#container-Left, #container-Right {
+		width: 25%;
+}
+	#container-Middle {
+		width: 40%;
+		margin-left: 3%;
+}
+
+	img {
+		padding-top: 60px;	
+}
+}
+
+@media (max-width: 800px) {
+	
+	img {
+		max-width: 30%;
+}
+	
+	#container-Left, #container-Right {
+		width: 100%;
+		}
+	#container-Middle {
+		width:95%;
+		}
+	 #selectBox span {
+		display: none;
+}
+
+
+			
+
+
+}
+
+
+
+/* Large Tablets */
+
+@media (max-width: 768px)  {
+	#container-Left, #container-Right {
+		display: none;
+}
+	
+	#container-Middle {
+		width: 89%;
+		margin-right: 2%;
+		padding: 5%;
+			
+}
+
+
+
+	#container-Middle h1 {
+		font-size: 3.5em;
+}
+
+	#container-Middle p {
+		font-size: 1.35em;
+}
+
+	#selectBox #conversionType {
+		font-size: 2em;
+		text-align: center !important;
+		align-items: center;
+		padding-left: 5%;
+}
+
+	#result {
+		font-size:2.5em;
+		padding-top: 30px;
+}
+
+	#btn1, #btn2 {
+		font-size: 2em;
+}
+
+	button {
+		height: 50px;
+		background-color: #39F;
+		color: #FFF;
+}
+
+	button:hover {
+		background-color: #FFF;
+		color: #39F;
+}
+
+	#selectBox span {
+		display: none;
+}
+
+
+}
+
+/* Tablet Devices*/
+
+@media (max-width: 650px) {
+	#container-Left, #container-Right {
+		display: none;
+}
+
+	#container-Middle {
+		width: 89%;
+		margin-right: 2%;
+		padding: 5%;
+}
+
+	#selectBox #conversionType {
+		font-size: 2em;
+		text-align: center !important;
+		align-items: center;
+		padding-left: 5%;
+}
+
+	#result {
+		padding-top: 30px;
+		font-size: 2.5em;
+}
+
+	#btn1, #btn2 {
+		font-size: 2em;
+}
+
+	button {
+		height: 50px;
+		background-color: #39F;
+		color: #FFF;
+}
+
+	button:hover {
+		background-color: #FFF;
+		color: #39F;
+}
+
+	#selectBox span {
+		display: none;
+}
+
+
+}
+
+/* Normal Mobile Devices */
+
+@media (max-width: 450px) {
+	#container-Right, #container-Left {
+		display: none;
+}
+	#container-Middle {
+		width: 89%;
+		margin-right: 2%;
+		padding: 5%;
+}
+	#selectBox {
+		font-size: 1em;
+		text-align: center !important;
+}
+
+	#result {
+		padding-top: 30px;
+		font-size: 2em;
+}
+
+	#btn1, #btn2 {
+		font-size: 1.4em;
+}
+
+	button {
+		height: 40px;
+		background-color:#39F;
+		color: #FFF;
+}
+
+	button:hover {
+		background-color: #FFF;
+		color: #39F;
+}
+
+	#selectBox span {
+		display: none;
+}
+
+}
+
+
+/* Very small mobile device screens */
+
+@media (max-width: 375px) {
+	#container-Right, #container-Left {
+		display:none;
+}	#container-Middle {
+	wdith: 89%;
+	margin-right: 2%;
+	padding: 5%;
+}
+
+
+	#selectBox {
+	font-size: 0.7em;
+	text-align: center !important;
+	
+}
+
+
+	#result {
+	padding-top: 30px;
+	font-size: 2em;
+}
+
+	#btn1, #btn2 {
+	font-size: 1.4em;
+}
+
+	button {
+	height: 40px;
+	background-color: #39F;
+	color: #fff;
+}
+
+	button:hover {
+	background-color: #fff;
+	color: #39F;
+}
+
+	#selectBox span {
+	display: none;
+}
+
+	::-webkit-input-placeholder {
+	font-size: 0.7em;
+}
+
+	::-moz-placeholder {
+	font-size: 0.7em; !important;
+}
+
+	::-moz-placeholder {
+	font-size: 0.7em; !important;
+}
+
+	::-ms-input-placeholder {
+	font-size: 1em;
+}
+	
+}
+
